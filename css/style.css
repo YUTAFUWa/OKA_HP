@@ -1,3 +1,6 @@
+/* モバイルファースト */
+
+/* ⬇︎⬇︎⬇︎⬇︎　全体　⬇︎⬇︎⬇︎⬇︎ */
 body {
   font-family: "Helvetica Neue",
     Arial,
@@ -7,8 +10,39 @@ body {
     sans-serif;
 }
 
+/* ⬇︎⬇︎⬇︎⬇︎　PCでは表示しない場合　⬇︎⬇︎⬇︎⬇︎ */
+.pc{
+  display: none;
+}
+
+/* ⬇︎⬇︎⬇︎⬇︎　imgサイズ　⬇︎⬇︎⬇︎⬇︎ */
 img{
   width: 100%;
+}
+
+header{
+  height: 48px;
+}
+
+/* ⬇︎⬇︎⬇︎⬇︎　h1,h2,h3,p　⬇︎⬇︎⬇︎⬇︎ */
+h1{
+  font-size: 24px;
+  line-height: 2;
+}
+
+h2{
+  font-size: 21px;
+  line-height: 1.8;
+}
+
+h3{
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 /* ⬇︎⬇︎⬇︎⬇︎　事業内容　⬇︎⬇︎⬇︎⬇︎ */
@@ -26,12 +60,8 @@ img{
   width: calc(100%/2 - 6px);
 }
 
-
-
-
 /* ⬇︎⬇︎⬇︎⬇︎　ハンバーガーメニュー　⬇︎⬇︎⬇︎⬇︎ */
 nav {
-  /* font-family: 'Lora', serif; */
   display: block;
   width: 220px;
   position: fixed;
@@ -80,8 +110,8 @@ nav .inner ul li a:hover {
 .toggle-btn {
   display: block;
   position: fixed;
-  top: 15px;
-  right: 15px;
+  top: 10px;
+  right: 10px;
   width: 30px;
   height: 30px;
   z-index: 3;
@@ -146,3 +176,39 @@ nav .inner ul li a:hover {
 }
 
 
+
+
+/* ⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎ */
+/* 481px以上に適用されるCSS（タブレット用） */
+@media screen and (min-width: 481px) {
+
+  .pc{
+    display: block;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+}
+
+
+
+
+/* ⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎ */
+/* 960px以上に適用されるCSS（PC用） */
+@media screen and (min-width: 960px) {
+  body{
+    max-width: 1400px;
+    margin: auto;
+  }
+
+  .pc{
+    display: block;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+}
