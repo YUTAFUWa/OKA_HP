@@ -8,6 +8,7 @@ body {
     "Hiragino Sans",
     Meiryo,
     sans-serif;
+  padding: 3px;
 }
 
 /* ⬇︎⬇︎⬇︎⬇︎　PCでは表示しない場合　⬇︎⬇︎⬇︎⬇︎ */
@@ -33,6 +34,9 @@ h1{
 h2{
   font-size: 21px;
   line-height: 1.8;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
 h3{
@@ -40,24 +44,13 @@ h3{
   line-height: 1.6;
 }
 
+section{
+  padding-top: 60px;
+}
+
 p{
   font-size: 16px;
   line-height: 1.6;
-}
-
-/* ⬇︎⬇︎⬇︎⬇︎　事業内容　⬇︎⬇︎⬇︎⬇︎ */
-.work__list{
-  background-color: blue;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.work__item{
-  background-color: yellow;
-  margin: 2px;
-  text-align: center;
-  width: calc(100%/2 - 6px);
 }
 
 /* ⬇︎⬇︎⬇︎⬇︎　ハンバーガーメニュー　⬇︎⬇︎⬇︎⬇︎ */
@@ -174,6 +167,44 @@ nav .inner ul li a:hover {
   cursor: pointer;
   z-index: 12;
 }
+
+/* ⬇︎⬇︎⬇︎⬇︎　事業内容　⬇︎⬇︎⬇︎⬇︎ */
+.work__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work__item{
+  margin: 4px;
+  text-align: center;
+  width: calc(100%/2 - 8px);
+  /* border: 1px solid #333; */
+}
+
+.work__item img {
+  height: 130px;
+  object-fit: cover;
+  padding: 3px;
+}
+
+
+/* ⬇︎⬇︎⬇︎⬇︎　会社案内　⬇︎⬇︎⬇︎⬇︎ */
+.company__table{
+width: 100%;
+}
+
+.company__table th,
+.company__table td {
+border: 1px solid #ccc;
+padding: 20px;
+}
+
+.company__table th {
+font-weight: bold;
+background-color: #dedede; 
+}
+
 
 
 
