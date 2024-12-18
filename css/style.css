@@ -10,14 +10,22 @@ body {
     sans-serif;
 }
 
-header{
-  position: fixed;
-  background-color: #fff;
-  width: 100%;
-  height: 48px;
-  padding-left: 10px;
-  z-index: 4px;
+section{
+  padding-top: 60px;
+  padding-bottom: 80px;
 }
+
+.clippath{
+  /* ⬇︎斜めの区切り */
+  clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+
+}
+
+section:nth-child(2n){
+  background-color: #058BD4;
+  color: #E0EBF3;
+}
+
 
 #top__image img{
   object-fit: cover;
@@ -39,6 +47,7 @@ h1{
   font-size: 24px;
   line-height: 2;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 h2{
@@ -54,21 +63,13 @@ h3{
   line-height: 1.6;
 }
 
-section{
-  padding-top: 60px;
-  padding-bottom: 80px;
-  /* ⬇︎斜めの区切り */
-  /* clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%); */
-}
-
-section:nth-child(2n+1){
-  background-color: #EBF4EF;
-}
-
 p{
   font-size: 16px;
   line-height: 1.6;
 }
+
+
+
 
 /* ⬇︎⬇︎⬇︎⬇︎　ハンバーガーメニュー　⬇︎⬇︎⬇︎⬇︎ */
 nav {
@@ -196,7 +197,7 @@ nav .inner ul li a:hover {
   margin: 4px;
   text-align: center;
   width: calc(100%/2 - 8px);
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   border-radius: 5px;
 }
 
@@ -228,6 +229,12 @@ background-color: #dedede;
   font-size: 35px;
 }
 
+
+/* ⬇︎⬇︎⬇︎⬇︎　お問い合わせ　⬇︎⬇︎⬇︎⬇︎ */
+
+#contact{
+  height: 250px;
+}
 
 
 /* ⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎ */
