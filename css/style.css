@@ -1,6 +1,10 @@
 /* モバイルファースト */
 
 /* ⬇︎⬇︎⬇︎⬇︎　全体　⬇︎⬇︎⬇︎⬇︎ */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Helvetica Neue",
     Arial,
