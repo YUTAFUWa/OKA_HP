@@ -30,10 +30,15 @@ section:nth-child(2n){
   color: #E0EBF3;
 }
 
+#top__image{
+  text-align: center;
+}
 
 #top__image img{
   object-fit: cover;
-  height: 900px;
+  height: 800px;
+  width: 90%;
+  border-radius: 20px;
 }
 
 /* ⬇︎⬇︎⬇︎⬇︎　PCでは表示しない場合　⬇︎⬇︎⬇︎⬇︎ */
