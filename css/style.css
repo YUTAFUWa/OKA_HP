@@ -26,8 +26,8 @@ section{
 }
 
 section:nth-child(2n){
-  background-color: #058BD4;
-  color: #E0EBF3;
+  background-color: #EFEDEC;
+  color: black;
 }
 
 #top__image{
@@ -42,51 +42,6 @@ section:nth-child(2n){
   margin: 0 auto;
 }
 
-ul.strong__list{
-  padding: 0;
-  font: 14px/1.6 'arial narrow', sans-serif;
-  width:370px;
-  list-style: none;
-}
-ul.strong__list li{
-  position: relative;
-  padding: 0.5em 1em 0.5em 2.3em;
-  margin-bottom:5px;
-  /* color: rgb(129,194,250); */
-  color: rgb(1, 55, 103);
-  font-size: 15px;
-  font-weight: bold;
-  border-bottom: 1px solid rgba(129,194,250, 0.5);
-}
-ul.strong__list li:after,
-ul.strong__list li:before{
-  content: "";
-  position: absolute;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-ul.strong__list li:before{
-  top: 0.7em;
-  left: 0.2em;
-  width: 12px;
-  height: 12px;
-  border:2px solid rgba(129,194,250,0.5);
-}
-ul.strong__list li:after{
-  top: 0.9em;
-  left: 0.7em;
-  width: 14px;
-  height: 14px;
-  background: rgba(129,194,250,0.3);
-  -webkit-transform: rotate(60deg);
-  -moz-transform: rotate(60deg);
-  -o-transform: rotate(60deg);
-  -ms-transform: rotate(60deg);
-  transform: rotate(60deg);
-}
 
 
 /* ⬇︎⬇︎⬇︎⬇︎　PCでは表示しない場合　⬇︎⬇︎⬇︎⬇︎ */
@@ -110,7 +65,7 @@ h1{
 h2{
   font-size: 21px;
   line-height: 1.8;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   text-align: center;
   font-weight: bold;
 }
@@ -243,26 +198,50 @@ nav .inner ul li a:hover {
   z-index: 3;
 }
 
+/* ⬇︎⬇︎⬇︎⬇︎　強み　⬇︎⬇︎⬇︎⬇︎ */
+
+ul.strong__list{
+  margin: 0 5x;
+  padding: 0;
+  font: 16px 'arial narrow', sans-serif;
+  width:370px;
+  list-style: none;
+}
+ul.strong__list li{
+  padding: 0.5em 1em 0.5em 2.3em;
+  margin-bottom:5px;
+  /* color: rgb(129,194,250); */
+  color: rgb(1, 55, 103);
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(129,194,250, 0.5);
+}
+
 /* ⬇︎⬇︎⬇︎⬇︎　事業内容　⬇︎⬇︎⬇︎⬇︎ */
-.work__list{
+.service__list{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.work__item{
+.service__item{
   margin: 4px;
   text-align: center;
   width: calc(100%/2 - 8px);
-  /* border: 2px solid blue; */
-  border-radius: 5px;
 }
 
-.work__item img {
+.service__item img {
   height: 130px;
   object-fit: cover;
   padding: 3px;
+  border-radius: 10px;
 }
+
+/* ⬇︎⬇︎⬇︎⬇︎　ご依頼の流れ　⬇︎⬇︎⬇︎⬇︎ */
+
+
+
+
 
 
 /* ⬇︎⬇︎⬇︎⬇︎　会社案内　⬇︎⬇︎⬇︎⬇︎ */
