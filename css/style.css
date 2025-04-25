@@ -235,6 +235,7 @@ ul.strong__list li{
 /* ⬇︎⬇︎⬇︎⬇︎　施工事例　⬇︎⬇︎⬇︎⬇︎ */
 #portfolio{
   margin: 0 10px;
+  padding-bottom: 20px;
 }
 
 #port1{
@@ -247,9 +248,9 @@ ul.strong__list li{
 
 
 /* ⬇︎⬇︎⬇︎⬇︎　ご依頼の流れ　⬇︎⬇︎⬇︎⬇︎ */
-/* #flow{
-  padding-top: 0px;
-} */
+#flow{
+  padding-bottom: 0px;
+}
 
 .flow__link{
   position: relative;
@@ -278,7 +279,7 @@ ul.strong__list li{
 
 /* ⬇︎⬇︎⬇︎⬇︎　FAQ　⬇︎⬇︎⬇︎⬇︎ */
 #faq{
-  padding-top: 0px;
+  padding-bottom: 25px;
 }
 
 .faq__link{
