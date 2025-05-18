@@ -10,6 +10,11 @@
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/swipe.css" />
   </head>
   <body>
     <header>
@@ -41,31 +46,36 @@
       <!-- ⬆︎⬆︎⬆︎⬆︎ハンバーガーメニュー⬆︎⬆︎⬆︎⬆︎ -->
     </header>
     <main>
-        <h1 id="title">岡総合外壁工</h1>
+      <h1 id="title">岡総合外壁工</h1>
 
-        <!-- ⬇︎⬇︎⬇︎⬇︎　トップ画像　⬇︎⬇︎⬇︎⬇︎ -->
-        <div id="top__image">
-          <img src="image/top__photo.jpg" class="pc" alt="PCトップ画像" />
-          <img
-            src="image/sp__top__photo.jpg"
-            class="mobile"
-            alt="スマホトップ画像"
-          />
-        </div>
+      <!-- ⬇︎⬇︎⬇︎⬇︎　トップ画像　⬇︎⬇︎⬇︎⬇︎ -->
+      <div id="top__image">
+        <img src="image/top__photo.jpg" class="pc" alt="PCトップ画像" />
+        <img
+          src="image/sp__top__photo.jpg"
+          class="mobile"
+          alt="スマホトップ画像"
+        />
+      </div>
 
       <!-- ⬇︎⬇︎⬇︎⬇︎　強み　⬇︎⬇︎⬇︎⬇︎ -->
-       <section id="strong">
+      <section id="strong">
         <h2>強み</h2>
         <ul class="strong__list">
-          <li><i class="fa-solid fa-thumbs-up" style="color: #ffa000;"></i>
-             足場を建てられない場所でも工事が可能</li>
-          <li><i class="fa-solid fa-thumbs-up" style="color: #ffa000;"></i>
-             足場が必要ないので住人のストレス軽減</li>
-          <li><i class="fa-solid fa-thumbs-up" style="color: #ffa000;"></i>
-             必要な箇所のみ工事をすることが可能</li>
+          <li>
+            <i class="fa-solid fa-thumbs-up" style="color: #ffa000"></i>
+            足場を建てられない場所でも工事が可能
+          </li>
+          <li>
+            <i class="fa-solid fa-thumbs-up" style="color: #ffa000"></i>
+            足場が必要ないので住人のストレス軽減
+          </li>
+          <li>
+            <i class="fa-solid fa-thumbs-up" style="color: #ffa000"></i>
+            必要な箇所のみ工事をすることが可能
+          </li>
         </ul>
-       </section>
-
+      </section>
 
       <!-- ⬇︎⬇︎⬇︎⬇︎　サービス紹介　⬇︎⬇︎⬇︎⬇︎ -->
       <section id="service">
@@ -109,12 +119,10 @@
         <h2>施工事例</h2>
 
         <div class="port__item">
-          <img src="image/hongo.jpg" alt="" id="port1"/>
+          <img src="image/hongo.jpg" alt="" id="port1" />
           <div class="port__item__adress">
             <p>東京都文京区</p>
-            <p>
-              タイルの張り替え 目地注入工事 シーリング打ち替え工事
-            </p>
+            <p>タイルの張り替え 目地注入工事 シーリング打ち替え工事</p>
           </div>
         </div>
       </section>
@@ -132,6 +140,45 @@
           <h2>FAQ</h2>
           <p>よくある質問はこちらで</p>
           <a href=""></a>
+        </div>
+      </section>
+
+      <section id="photo">
+        <div class="swiper">
+          <!-- スライド要素を包む要素 -->
+          <div class="swiper-wrapper">
+            <!-- 各スライド -->
+            <div class="swiper-slide slide1">
+              <img src="slider/1.jpg" alt="写真サンプル" />
+            </div>
+            <div class="swiper-slide slide2">
+              <img src="slider/2.jpg" alt="写真サンプル" />
+            </div>
+            <div class="swiper-slide slide3">
+              <img src="slider/3.jpg" alt="写真サンプル" />
+            </div>
+            <div class="swiper-slide slide4">
+              <img src="slider/4.jpg" alt="写真サンプル" />
+            </div>
+            <div class="swiper-slide slide5">
+              <img src="slider/5.jpg" alt="写真サンプル" />
+            </div>
+            <div class="swiper-slide slide6">
+              <img src="slider/6.jpg" alt="写真サンプル" />
+            </div>
+            <div class="swiper-slide slide7">
+              <img src="slider/7.jpg" alt="写真サンプル" />
+            </div>
+            <div class="swiper-slide slide8">
+              <img src="slider/8.jpg" alt="写真サンプル" />
+            </div>
+            <div class="swiper-slide slide9">
+              <img src="slider/9.jpg" alt="写真サンプル" />
+            </div>
+            <div class="swiper-slide slide10">
+              <img src="slider/10.jpg" alt="写真サンプル" />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -177,7 +224,13 @@
       </section>
 
       <script src="js/script.js"></script>
-      <script src="https://kit.fontawesome.com/0c0f5f4884.js" crossorigin="anonymous"></script>
+      <script
+        src="https://kit.fontawesome.com/0c0f5f4884.js"
+        crossorigin="anonymous">
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="js/swipe.js"></script>
+
     </main>
     <footer></footer>
   </body>
