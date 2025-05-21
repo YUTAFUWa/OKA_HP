@@ -190,7 +190,7 @@ nav .inner ul li a:hover {
 /* ⬇︎⬇︎⬇︎⬇︎　強み　⬇︎⬇︎⬇︎⬇︎ */
 
 ul.strong__list{
-  margin: 0 5x;
+  margin: 0 5px;
   padding: 0;
   font: 16px 'arial narrow', sans-serif;
   width:370px;
@@ -371,5 +371,30 @@ background-color: #dedede;
   .mobile{
     display: none;
   }
+
+  #title{
+    position: fixed;
+    top: 0;
+    left: 50px;
+    z-index: 10;
+  }
+
+  #top__image{
+    width: 100vw;
+    max-width: none;
+    margin-top: 50px;
+    margin-left: calc(-50vw + 50%);
+  }
+
+
+  .toggle-btn {
+  right: 70px;
+}
+
+
+ul.strong__list{
+  text-align: center;
+
+}
 
 }
