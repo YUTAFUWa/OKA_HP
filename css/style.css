@@ -360,7 +360,7 @@ background-color: #dedede;
 /* 960px以上に適用されるCSS（PC用） */
 @media screen and (min-width: 960px) {
   body{
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
   }
 
@@ -372,10 +372,22 @@ background-color: #dedede;
     display: none;
   }
 
+  h2{
+    font-size: 24px;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+
   #title{
     position: fixed;
     top: 0;
-    left: 50px;
+    left: 4%;
     z-index: 10;
   }
 
@@ -388,13 +400,27 @@ background-color: #dedede;
 
 
   .toggle-btn {
-  right: 70px;
-}
+  right: 5%;
+  }
 
-
-ul.strong__list{
+  ul.strong__list{
   text-align: center;
+  }
 
-}
+  #service{
+    width: 100%;
+  }
+
+  .service__item img{
+    height: 500px;
+    width: 90%;
+  }
+
+  .port__item img{
+    height: 500px;
+    width: 500px;
+  }
+
+
 
 }
