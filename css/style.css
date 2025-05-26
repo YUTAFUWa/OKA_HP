@@ -338,6 +338,15 @@ background-color: #dedede;
 }
 
 
+/* 会社案内のTEL番号等リンク部分 */
+.contact__link{
+  transition: letter-spacing 0.3s;
+}
+
+.contact__link:hover{
+  letter-spacing: 0.05em;
+}
+
 
 /* ⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎⬇︎ */
 /* 481px以上に適用されるCSS（タブレット用） */
