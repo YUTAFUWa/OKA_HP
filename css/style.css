@@ -227,6 +227,11 @@ ul.strong__list li{
 
 .service__img{
   margin-bottom: 20px;
+  height: 225px;
+  width: 340px;
+  object-fit: cover;
+  padding: 3px;
+  border-radius: 10px;
 }
 
 .service__item > h3{
@@ -237,15 +242,22 @@ ul.strong__list li{
   margin-bottom: 60px;
 }
 
-.service__item img {
+/* .service__item img {
   height: 225px;
   width: 340px;
   object-fit: cover;
   padding: 3px;
   border-radius: 10px;
+} */
+
+.service__link{
+  height: 80px;
+  width: 340px;
+  border-radius: 10px;
+  object-fit: cover;
+
+
 }
-
-
 
 
 /* ⬇︎⬇︎⬇︎⬇︎　施工事例　⬇︎⬇︎⬇︎⬇︎ */
