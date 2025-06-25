@@ -6,11 +6,16 @@ const swiper = new Swiper(".swiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  pagination: {
-    el: ".swiper-pagination",
-    type: "bullets",
-    clickable: "clickable",
+    scrollbar: {
+    el: ".swiper-scrollbar",
+    hide: false,
+    draggable: true
   },
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   type: "bullets",
+  //   clickable: "clickable",
+  // },
   loop: true, //繰り返し指定
   spaceBetween: 10, //スライド感の余白
   slidesPerView: 1.5, //一度に表示するスライド枚数
