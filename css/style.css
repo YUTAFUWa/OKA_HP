@@ -192,7 +192,7 @@ p {
 /* ⬇︎⬇︎⬇︎⬇︎　強み　⬇︎⬇︎⬇︎⬇︎ */
 
 ul.strong__list {
-  margin: 0 5px;
+  margin: 0 auto;
   padding: 0;
   font: 16px "arial narrow", sans-serif;
   width: 370px;
@@ -200,13 +200,14 @@ ul.strong__list {
 }
 
 ul.strong__list li {
-  padding: 0.5em 1em 0.5em 2.3em;
+  /* padding: 0.5em 1em 0.5em 2.3em; */
+  padding: 20px 15px 10px 15px;
   margin-bottom: 5px;
-  /* color: rgb(129,194,250); */
   color: rgb(1, 55, 103);
   font-size: 16px;
   font-weight: bold;
   border-bottom: 1px solid rgba(129, 194, 250, 0.5);
+  /* background-color: #000; */
 }
 
 /* ⬇︎⬇︎⬇︎⬇︎　事業内容　⬇︎⬇︎⬇︎⬇︎ */
@@ -223,6 +224,7 @@ ul.strong__list li {
 }
 
 .service__item {
+  height: 470px;
   width: 340px;
   /* background-color: #000; */
 }
@@ -404,7 +406,6 @@ ul.strong__list li {
 
   #title {
     position: fixed;
-    top: 10px;
     left: 4%;
     z-index: 10;
   }
@@ -412,7 +413,7 @@ ul.strong__list li {
   #top__image {
     width: 100vw;
     max-width: none;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-left: calc(-50vw + 50%);
   }
 
@@ -421,6 +422,7 @@ ul.strong__list li {
   }
 
   /* ナビゲーション */
+
 
   header {
     position: fixed;
@@ -431,7 +433,6 @@ ul.strong__list li {
     background-color: white;
     opacity: 0.8;
     z-index: 8;
-
   }
 
   nav {
@@ -481,6 +482,7 @@ ul.strong__list li {
   }
 
   .service__item {
+    height: 530px;
     width: 33.3%;
     /* background-color: #000; */
     padding: 10px;
